@@ -15,6 +15,11 @@ body, body.view-profile {
   background-color: #ffcf27;
 }
 
+.nav-links .secondary .btn {
+  border-radius: 0;
+  background-color : #ffcf27;
+}
+
 .btn, .global-header .nav-links .secondary .btn {
   border-radius: 0;
 }
@@ -52,7 +57,12 @@ header.global-header {
 }
 
 header.global-header .nav-links .secondary .user-image-frame {
-  border-radius: 0;
+  border-radius: 1;
+}
+
+.nav-links .secondary .user-image-frame {
+  border-radius: 1;
+  background-color : #ffcf27;
 }
 
 header.global-header .nav-links .secondary .dropdown-user-menu {
